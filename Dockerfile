@@ -10,7 +10,7 @@ COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
-COPY . /app
+COPY ./techtrends /app
 
 # Expose the application port
 EXPOSE 3111
