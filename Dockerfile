@@ -6,7 +6,7 @@ LABEL maintainer="Sandep Nanda"
 WORKDIR /app
 
 # Copy the requirements file and install packages
-COPY requirements.txt requirements.txt
+COPY ./techtrends/requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
