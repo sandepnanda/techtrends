@@ -1,0 +1,9 @@
+apiVersion: v1
+name: techtrends
+description: A Helm chart for the TechTrends application
+version: 1.0.0
+keywords:
+  - techtrends
+maintainers:
+  - name: Sandep Nanda
+    email: sandep.nanda.jz@renesas.com
