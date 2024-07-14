@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://path/to/your/helm/chart/repo'
+    repoURL: 'https://github.com/sandepnanda/techtrends'
     chart: techtrends
-    targetRevision: 1.0.0
+    targetRevision: main
     helm:
       valueFiles:
         - values-staging.yaml
